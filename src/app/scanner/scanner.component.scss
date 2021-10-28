@@ -1,0 +1,36 @@
+.scanner-contanier {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.barcode-picker {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  min-height: 1px;
+  min-width: 1px;
+  position: relative;
+}
+
+.scanner-video {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.menus {
+  position: absolute;
+
+  color: #fff;
+}
+
